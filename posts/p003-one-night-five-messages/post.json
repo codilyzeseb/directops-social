@@ -1,0 +1,30 @@
+{
+  "id": "p003",
+  "slug": "one-night-five-messages",
+  "pillar": "operators-night-and-day",
+  "template": "night-log",
+  "format": "single",
+  "language": "en",
+  "example": true,
+  "scheduled": {
+    "dateTime": "2026-11-21T12:00:00",
+    "timezone": "Asia/Dubai"
+  },
+  "media": [
+    "media/2026-11/p003-one-night-five-messages.png"
+  ],
+  "alt": [
+    "A night log on a navy background, labelled Example, titled One night, five messages. 21:52: What's the Wi-Fi password? Answered. 23:40: Flight delayed. Is 01:30 too late? Answered, late arrival noted. 00:15: Is breakfast served before 07:00? Answered. 02:10, in French: Can we have a baby cot? Answered, in French. 06:05: There's no hot water in room 7. Sent straight to the duty manager. Closing line: Four had the same answer as last night. One needed a person. Direct Ops logo."
+  ],
+  "instagram": {
+    "caption": "Nobody goes into hospitality to answer the Wi-Fi question at 21:52.\n\nBut that's the night at a small property. The same questions as yesterday, one at a time, in whatever language the guest thinks in. And somewhere among them, the one message that does need a person: no hot water in room 7.\n\nAnswering isn't the hard part. The hard part is that four routine messages can bury the urgent one until morning.\n\nThat's the job we built our front desk for. It answers the routine from what you've told it, and sends the fifth straight to a person.\n\nWhich message wakes you most often?",
+    "first_comment": "#hoteliers #frontdesk #boutiquehotels #hospitalitymanagement"
+  },
+  "facebook": {
+    "caption": "Nobody goes into hospitality to answer the Wi-Fi question at 21:52.\n\nBut that's the night at a small property. The same questions as yesterday, one at a time, in whatever language the guest thinks in. And somewhere among them, the one message that does need a person: no hot water in room 7.\n\nAnswering isn't the hard part. The hard part is that four routine messages can bury the urgent one until morning.\n\nThat's the job we built our front desk for. It answers the routine from what you've told it, and sends the fifth straight to a person.\n\nWhich message wakes you most often?",
+    "first_comment": "This is the front desk we install and run with small properties. You can ask it something here: https://systems.directops.ai/?utm_source=facebook&utm_medium=organic&utm_campaign=social_autopilot&utm_content=p003",
+    "link_placement": "first_comment"
+  },
+  "claims": [],
+  "notes": "Saturday slot is a deliberate test: owner-operators work weekends."
+}

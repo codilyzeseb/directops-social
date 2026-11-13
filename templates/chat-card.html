@@ -1,0 +1,68 @@
+<!doctype html>
+<!--
+  TEMPLATE 1 · CHAT CARD
+  The desk at work: one guest moment and the answer the desk gives.
+  Rules: the "Example" pill and the "An example conversation" footnote always stay.
+  Two or three bubbles at most. The clock is the hook, so pick a real-feeling time.
+  Never a real guest, never a named property. The gold line under the bubbles shows
+  what the team sees afterwards (a note, a handover), and keeps a person in the story.
+  To use: copy to posts/<id>-<slug>/slides.html, change "base.css" and "assets/"
+  to "../../templates/base.css" and "../../templates/assets/", edit the text, then
+  node tools/render.js posts/<id>-<slug>/slides.html media/<yyyy-mm>/<id>-<slug>
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>template · chat-card</title>
+<link rel="stylesheet" href="base.css">
+</head>
+<body>
+
+<section class="slide porcelain">
+  <div class="topline">
+    <p class="eyebrow">The desk at work</p>
+    <span class="pill">Example</span>
+  </div>
+
+  <div class="clock-row" style="margin-top:46px">
+    <p class="clock">23:40</p>
+    <p class="say">The flight is late.<br>The desk is still open.</p>
+  </div>
+
+  <div class="card chat" style="margin-top:50px">
+    <div class="chat-head">
+      <div class="who">
+        <span class="dot"><img src="assets/mark-white.png" alt=""></span>
+        <div>
+          <p class="name">Front desk</p>
+          <p class="status">Answers day and night</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="msg guest">
+      <p class="bubble">Our flight is delayed. We'll arrive around 01:30. Is that still OK for check-in?</p>
+      <span class="time">Guest · 23:40</span>
+    </div>
+
+    <div class="msg desk">
+      <p class="bubble">Yes, that's fine. Reception closes at midnight, so your key will be in the key box by the gate. I'll send you the code now.</p>
+      <span class="time">Front desk · 23:40</span>
+    </div>
+
+    <div class="handover">
+      <svg viewBox="0 0 34 34" fill="none"><circle cx="17" cy="17" r="15.5" stroke="#bf9f66" stroke-width="2.5"/><path d="M10.5 17.5l4.4 4.4 8.8-9.4" stroke="#6d521f" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <span>Note for the morning team: late arrival, Villa 4</span>
+    </div>
+  </div>
+
+  <p class="aside" style="margin-top:42px">You were asleep. You read it at breakfast.</p>
+
+  <div class="foot">
+    <span class="wordmark"><img src="assets/mark-navy.png" alt=""><span class="wm">Direct<span class="ops">·Ops</span></span></span>
+    <span class="note">An example conversation</span>
+  </div>
+</section>
+
+</body>
+</html>

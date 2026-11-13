@@ -1,0 +1,30 @@
+{
+  "id": "p001",
+  "slug": "late-arrival",
+  "pillar": "desk-at-work",
+  "template": "chat-card",
+  "format": "single",
+  "language": "en",
+  "example": true,
+  "scheduled": {
+    "dateTime": "2026-11-17T12:00:00",
+    "timezone": "Asia/Dubai"
+  },
+  "media": [
+    "media/2026-11/p001-late-arrival.png"
+  ],
+  "alt": [
+    "Example chat between a guest and a property's front desk, on a cream background, labelled Example. At 23:40 the guest writes: Our flight is delayed. We'll arrive around 01:30. Is that still OK for check-in? The front desk replies at 23:40: Yes, that's fine. Reception closes at midnight, so your key will be in the key box by the gate. I'll send you the code now. Below: Note for the morning team: late arrival, Villa 4. Closing line: You were asleep. You read it at breakfast. Direct Ops logo."
+  ],
+  "instagram": {
+    "caption": "23:40. A guest's flight is delayed, and they want to know if 01:30 is too late to check in.\n\nAt most small properties that message waits until morning, or it wakes somebody up.\n\nHere the front desk answers straight away, in the guest's language, and only with what the property has told it: when reception closes, where the key box is, how the code gets sent. The morning team finds a note that Villa 4 arrived late.\n\nIt's an example, not a real guest. The situation is real enough.\n\nHow do late arrivals reach you today?",
+    "first_comment": "#hoteliers #boutiquehotels #villamanagement #guestexperience"
+  },
+  "facebook": {
+    "caption": "23:40. A guest's flight is delayed, and they want to know if 01:30 is too late to check in.\n\nAt most small properties that message waits until morning, or it wakes somebody up.\n\nHere the front desk answers straight away, in the guest's language, and only with what the property has told it: when reception closes, where the key box is, how the code gets sent. The morning team finds a note that Villa 4 arrived late.\n\nIt's an example, not a real guest. The situation is real enough.\n\nHow do late arrivals reach you today?\n\nYou can put the same question to the live desk yourself: https://systems.directops.ai/?utm_source=facebook&utm_medium=organic&utm_campaign=social_autopilot&utm_content=p001",
+    "first_comment": "",
+    "link_placement": "caption"
+  },
+  "claims": [],
+  "notes": "Scenario mirrors the example on the landing page hero, so a click lands on the same scene."
+}

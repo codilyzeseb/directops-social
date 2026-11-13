@@ -1,0 +1,42 @@
+{
+  "id": "p002",
+  "slug": "pre-arrival-message",
+  "pillar": "practical-tips",
+  "template": "checklist-carousel",
+  "format": "carousel",
+  "language": "en",
+  "example": false,
+  "scheduled": {
+    "dateTime": "2026-11-19T15:00:00",
+    "timezone": "Asia/Dubai"
+  },
+  "media": [
+    "media/2026-11/p002-pre-arrival-message-1.png",
+    "media/2026-11/p002-pre-arrival-message-2.png",
+    "media/2026-11/p002-pre-arrival-message-3.png",
+    "media/2026-11/p002-pre-arrival-message-4.png",
+    "media/2026-11/p002-pre-arrival-message-5.png",
+    "media/2026-11/p002-pre-arrival-message-6.png",
+    "media/2026-11/p002-pre-arrival-message-7.png"
+  ],
+  "alt": [
+    "Cover slide on cream: a large brass numeral 7 above the title, lines for your pre-arrival message. Below: Send it three days before check-in. Each line answers a question you would otherwise get on arrival day. Direct Ops logo and the word Swipe.",
+    "Line 1: The exact address, and a map pin. Guests paste it straight into a taxi app. A pin beats a street name, and saves the call from the wrong gate. Line 2: Check-in time, and the late plan. Say until when someone is at the desk, and exactly what happens after that.",
+    "Line 3: How they get in. Reception, key box or door code. One sentence, so nobody stands outside scrolling through old emails. Line 4: Parking. Where it is, how many cars fit, and whether it costs anything.",
+    "Line 5: Wi-Fi name and password. It is the first thing they will ask. Put it in writing before they need it. Line 6: One way to reach you. A single number or chat, and the hours a person answers it.",
+    "Line 7: One place to eat on the first evening. Somewhere close that is still serving when they arrive. It costs you one sentence, and it is the line that gets a thank-you.",
+    "A template to copy, with brackets to fill in. Hello [name], we look forward to welcoming you on [day]. Address: [street and map pin]. Check-in: from [15:00]. After [22:00], your key is in [the key box by the gate]. Parking: [where, how many cars, cost]. Wi-Fi: [network] / [password]. Reach us: [number or chat]. A person answers [08:00 to 22:00]. First evening: [restaurant], [5 minutes on foot], open until [23:00]. See you soon, [your name].",
+    "Closing slide on navy: Save it for the next time you rewrite yours. Working notes for small hotels, villas and resorts. Written by people who run them. Direct Ops logo and the handle @getdirectops."
+  ],
+  "instagram": {
+    "caption": "Arrival day brings the same handful of questions, every time. You can answer all of them three days early, in one message.\n\nSeven lines to put in it:\n\n1. The exact address, and a map pin\n2. Check-in time, and what happens if they arrive late\n3. How they get in\n4. Parking\n5. Wi-Fi name and password\n6. One way to reach you, and when a person answers\n7. One place to eat on the first evening\n\nSlide 6 is a template you can copy. Save it for the next time you rewrite yours.\n\nWhat's in your pre-arrival message that isn't on this list?",
+    "first_comment": "#hoteliers #hotelmanagement #holidayrentals #guestexperience"
+  },
+  "facebook": {
+    "caption": "Arrival day brings the same handful of questions, every time. You can answer all of them three days early, in one message.\n\nSeven lines to put in it:\n\n1. The exact address, and a map pin\n2. Check-in time, and what happens if they arrive late\n3. How they get in\n4. Parking\n5. Wi-Fi name and password\n6. One way to reach you, and when a person answers\n7. One place to eat on the first evening\n\nThe sixth picture is a template you can copy. Save it for the next time you rewrite yours.\n\nWhat's in your pre-arrival message that isn't on this list?",
+    "first_comment": "We set up and run front desks for small hotels, villas and resorts. More here: https://systems.directops.ai/?utm_source=facebook&utm_medium=organic&utm_campaign=social_autopilot&utm_content=p002",
+    "link_placement": "first_comment"
+  },
+  "claims": [],
+  "notes": "No industry statistics used. The seven lines are working practice, not research."
+}

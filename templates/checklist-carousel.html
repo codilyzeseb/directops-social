@@ -1,0 +1,180 @@
+<!doctype html>
+<!--
+  TEMPLATE 3 · CHECKLIST CAROUSEL
+  Practical tips operators save. Cover, item slides (two items each), an optional
+  single-item slide, an optional "Copy this" card, and a navy close. 3 to 8 slides.
+  Rules: the big brass numeral on the cover is the count of items. Update every
+  "n / total" counter when you add or remove a slide. One idea per item, a title of
+  at most two lines, and a body of at most three.
+  To use: copy to posts/<id>-<slug>/slides.html, change "base.css" and "assets/"
+  to "../../templates/base.css" and "../../templates/assets/", edit the text, then
+  node tools/render.js posts/<id>-<slug>/slides.html media/<yyyy-mm>/<id>-<slug>
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>template · checklist-carousel</title>
+<link rel="stylesheet" href="base.css">
+</head>
+<body>
+
+<!-- 1 · cover -->
+<section class="slide porcelain">
+  <div class="topline">
+    <p class="eyebrow">Checklist · save for later</p>
+  </div>
+  <div class="grow" style="display:flex; flex-direction:column; justify-content:center">
+    <p class="cover-figure"><span>7</span></p>
+    <h1 class="display" style="margin-top:34px">lines for your pre&#8209;arrival message</h1>
+    <hr class="rule" style="margin-top:44px">
+    <p class="lede" style="margin-top:40px; max-width:820px">Send it three days before check-in. Each line answers a question you would otherwise get on arrival day.</p>
+  </div>
+  <div class="foot">
+    <span class="wordmark"><img src="assets/mark-navy.png" alt=""><span class="wm">Direct<span class="ops">·Ops</span></span></span>
+    <span class="swipe">Swipe <svg viewBox="0 0 44 20" fill="none"><path d="M0 10h40M32 2l9 8-9 8" stroke="#6d521f" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+  </div>
+</section>
+
+<!-- 2 · lines 1 and 2 -->
+<section class="slide porcelain">
+  <div class="topline">
+    <p class="eyebrow">Pre-arrival message</p>
+    <span class="count">2 / 7</span>
+  </div>
+  <div class="grow" style="display:flex; flex-direction:column; justify-content:center">
+    <div class="item">
+      <span class="n">1</span>
+      <div>
+        <h3>The exact address, and a map pin</h3>
+        <p>Guests paste it straight into a taxi app. A pin beats a street name, and saves the call from the wrong gate.</p>
+      </div>
+    </div>
+    <hr class="divider">
+    <div class="item">
+      <span class="n">2</span>
+      <div>
+        <h3>Check-in time, and the late plan</h3>
+        <p>Say until when someone is at the desk, and exactly what happens after that.</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <span class="wordmark"><img src="assets/mark-navy.png" alt=""><span class="wm">Direct<span class="ops">·Ops</span></span></span>
+  </div>
+</section>
+
+<!-- 3 · lines 3 and 4 -->
+<section class="slide porcelain">
+  <div class="topline">
+    <p class="eyebrow">Pre-arrival message</p>
+    <span class="count">3 / 7</span>
+  </div>
+  <div class="grow" style="display:flex; flex-direction:column; justify-content:center">
+    <div class="item">
+      <span class="n">3</span>
+      <div>
+        <h3>How they get in</h3>
+        <p>Reception, key box or door code. One sentence, so nobody stands outside scrolling through old emails.</p>
+      </div>
+    </div>
+    <hr class="divider">
+    <div class="item">
+      <span class="n">4</span>
+      <div>
+        <h3>Parking</h3>
+        <p>Where it is, how many cars fit, and whether it costs anything.</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <span class="wordmark"><img src="assets/mark-navy.png" alt=""><span class="wm">Direct<span class="ops">·Ops</span></span></span>
+  </div>
+</section>
+
+<!-- 4 · lines 5 and 6 -->
+<section class="slide porcelain">
+  <div class="topline">
+    <p class="eyebrow">Pre-arrival message</p>
+    <span class="count">4 / 7</span>
+  </div>
+  <div class="grow" style="display:flex; flex-direction:column; justify-content:center">
+    <div class="item">
+      <span class="n">5</span>
+      <div>
+        <h3>Wi-Fi name and password</h3>
+        <p>It is the first thing they will ask. Put it in writing before they need it.</p>
+      </div>
+    </div>
+    <hr class="divider">
+    <div class="item">
+      <span class="n">6</span>
+      <div>
+        <h3>One way to reach you</h3>
+        <p>A single number or chat, and the hours a person answers it.</p>
+      </div>
+    </div>
+  </div>
+  <div class="foot">
+    <span class="wordmark"><img src="assets/mark-navy.png" alt=""><span class="wm">Direct<span class="ops">·Ops</span></span></span>
+  </div>
+</section>
+
+<!-- 5 · line 7 -->
+<section class="slide porcelain">
+  <div class="topline">
+    <p class="eyebrow">Pre-arrival message</p>
+    <span class="count">5 / 7</span>
+  </div>
+  <div class="grow" style="display:flex; flex-direction:column; justify-content:center">
+    <p class="numeral brass" style="color:var(--brass)">7</p>
+    <h2 class="headline" style="margin-top:34px; max-width:860px">One place to eat on the first evening</h2>
+    <p class="lede" style="margin-top:30px; max-width:800px">Somewhere close that is still serving when they arrive. It costs you one sentence, and it is the line that gets a thank-you.</p>
+  </div>
+  <div class="foot">
+    <span class="wordmark"><img src="assets/mark-navy.png" alt=""><span class="wm">Direct<span class="ops">·Ops</span></span></span>
+  </div>
+</section>
+
+<!-- 6 · the template to copy -->
+<section class="slide porcelain">
+  <div class="topline">
+    <p class="eyebrow">Copy this</p>
+    <span class="count">6 / 7</span>
+  </div>
+  <div class="grow" style="display:flex; flex-direction:column; justify-content:center">
+  <div class="card letter">
+    <p>Hello <span class="slot">[name]</span>, we look forward to welcoming you on <span class="slot">[day]</span>.</p>
+    <p><b>Address:</b> <span class="slot">[street and map pin]</span><br>
+    <b>Check-in:</b> from <span class="slot">[15:00]</span>. After <span class="slot">[22:00]</span>, your key is in <span class="slot">[the key box by the gate]</span>.<br>
+    <b>Parking:</b> <span class="slot">[where, how many cars, cost]</span><br>
+    <b>Wi-Fi:</b> <span class="slot">[network]</span> / <span class="slot">[password]</span><br>
+    <b>Reach us:</b> <span class="slot">[number or chat]</span>. A person answers <span class="slot">[08:00 to 22:00]</span>.<br>
+    <b>First evening:</b> <span class="slot">[restaurant]</span>, <span class="slot">[5 minutes on foot]</span>, open until <span class="slot">[23:00]</span>.</p>
+    <p>See you soon,<br><span class="slot">[your name]</span></p>
+  </div>
+  </div>
+  <div class="foot">
+    <span class="wordmark"><img src="assets/mark-navy.png" alt=""><span class="wm">Direct<span class="ops">·Ops</span></span></span>
+    <span class="note">Swap the brackets for your own details</span>
+  </div>
+</section>
+
+<!-- 7 · close -->
+<section class="slide navy">
+  <div class="topline">
+    <p class="eyebrow">Before the next arrival</p>
+    <span class="count">7 / 7</span>
+  </div>
+  <div class="grow" style="display:flex; flex-direction:column; justify-content:center">
+    <hr class="rule">
+    <h2 class="display" style="margin-top:44px">Save it for the next time you rewrite <em class="brass">yours</em>.</h2>
+    <p class="lede" style="margin-top:40px; max-width:780px">Working notes for small hotels, villas and resorts. Written by people who run them.</p>
+  </div>
+  <div class="foot">
+    <span class="wordmark"><img src="assets/mark-white.png" alt=""><span class="wm">Direct<span class="ops">·Ops</span></span></span>
+    <span class="note">@getdirectops</span>
+  </div>
+</section>
+
+</body>
+</html>

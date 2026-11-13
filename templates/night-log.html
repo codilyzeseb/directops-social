@@ -1,0 +1,57 @@
+<!doctype html>
+<!--
+  TEMPLATE 4 · NIGHT LOG
+  The operator's night and day as a list of times. Five rows at most.
+  Rules: the "Example" pill stays. One row carries class "human": the message that
+  goes to a person, shown in brass. Works on porcelain too (class "slide porcelain").
+  To use: copy to posts/<id>-<slug>/slides.html, change "base.css" and "assets/"
+  to "../../templates/base.css" and "../../templates/assets/", edit the text, then
+  node tools/render.js posts/<id>-<slug>/slides.html media/<yyyy-mm>/<id>-<slug>
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>template · night-log</title>
+<link rel="stylesheet" href="base.css">
+</head>
+<body>
+
+<section class="slide navy">
+  <div class="topline">
+    <p class="eyebrow">One night · five messages</p>
+    <span class="pill">Example</span>
+  </div>
+
+  <div class="log" style="margin-top:54px">
+    <div class="row">
+      <span class="t">21:52</span>
+      <div><p class="q">What's the Wi-Fi password?</p><p class="a">Answered</p></div>
+    </div>
+    <div class="row">
+      <span class="t">23:40</span>
+      <div><p class="q">Flight delayed. Is 01:30 too late?</p><p class="a">Answered, late arrival noted</p></div>
+    </div>
+    <div class="row">
+      <span class="t">00:15</span>
+      <div><p class="q">Is breakfast served before 07:00?</p><p class="a">Answered</p></div>
+    </div>
+    <div class="row">
+      <span class="t">02:10</span>
+      <div><p class="q" lang="fr">Peut-on avoir un lit bébé ?</p><p class="a">Answered, in French</p></div>
+    </div>
+    <div class="row human">
+      <span class="t">06:05</span>
+      <div><p class="q">There's no hot water in room 7.</p><p class="a">Sent straight to the duty manager</p></div>
+    </div>
+  </div>
+
+  <p class="aside" style="margin-top:50px; max-width:860px">Four had the same answer as last night. One needed a person.</p>
+
+  <div class="foot">
+    <span class="wordmark"><img src="assets/mark-white.png" alt=""><span class="wm">Direct<span class="ops">·Ops</span></span></span>
+    <span class="note">An example night</span>
+  </div>
+</section>
+
+</body>
+</html>
